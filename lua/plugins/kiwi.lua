@@ -1,7 +1,6 @@
 -- Sources:
 -- https://github.com/serenevoid/kiwi.nvim
---
---
+
 return {
   {
     "serenevoid/kiwi.nvim",
@@ -11,7 +10,7 @@ return {
     opts = {
       {
         name = "work",
-        path = "/Users/di25xib/Documents/vimwiki",
+        path = os.getenv("HOME") .. "/Documents/vimwiki",
       },
       -- {
       --   name = "personal",
