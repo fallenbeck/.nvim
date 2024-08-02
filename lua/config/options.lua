@@ -6,6 +6,9 @@
 vim.opt.colorcolumn = "80"
 vim.opt.textwidth = 80
 
+-- Spellling
+vim.opt.spelllang = "en,de"
+
 -- Get indentation right!
 -- NOTE: In LazyVim this is set in the stylua file. However, I keep it here for
 -- documentation purposes
