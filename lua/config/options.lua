@@ -7,6 +7,7 @@ vim.opt.colorcolumn = "80"
 vim.opt.textwidth = 80
 
 -- Spellling
+vim.opt.spell = true
 vim.opt.spelllang = "en,de"
 
 -- Get indentation right!
